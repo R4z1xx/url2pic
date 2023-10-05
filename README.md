@@ -12,7 +12,7 @@ docker build -t url2pic .
 ```
 And start a new container : 
 ```
-docker run -p 5000:5000 --name url2pic_api url2pic
+docker run -d -p 5000:5000 --name url2pic_api url2pic
 ```
 
 
