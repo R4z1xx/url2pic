@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import base64
 import re
 
 app = Flask(__name__)
