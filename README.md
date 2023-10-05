@@ -19,6 +19,7 @@ docker run -d -p 5000:5000 --name url2pic_api url2pic
 ## Usage
 You can interact with this API by both methods.
 ### With url2pic.py script
+*Don't forget to modify API url in the url2pic.py file (line 6)*
 ```
 python url2pic.py http://example.com
 ```
