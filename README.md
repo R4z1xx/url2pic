@@ -25,7 +25,7 @@ python url2pic.py http://example.com
 ```
 
 ### With curl and jq on Linux 
-Make sure to replace the "localhost" url by your API IP or domain.
+*Make sure to replace the "localhost" url by your API IP or domain.*
 ```
 curl -s -X POST -H "Content-Type: application/json" -d "{\"url\": \"http://example.com\"}" http://localhost:5000/capture | jq -r .screenshot | base64 -d > screenshot.png
 ```
