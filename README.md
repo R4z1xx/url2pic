@@ -3,7 +3,7 @@
 *You need to have Docker installed to use this API.* <br> <br>
 First clone the repo :
 ```
-git clone https://github.com/R4z1xx/url2pic
+git clone https://github.com/R4z1xx/url2pic.git
 cd url2pic/url2pic_api/
 ```
 Build the Docker image :
